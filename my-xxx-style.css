@@ -1,0 +1,122 @@
+/* =============================================================================
+ * Name: CSS Style V3.0 || 2017 !!!
+ * Company: Banglasoft@Corporation™ !!!
+ * Founder: Engr. Md Mahadi Hassan Herock !!!
+ * Website URL: http://www.bangla-soft.com !!!
+ * Description: Try To Do Something Better Than Other !!!
+ ============================================================================ */
+
+/* ====================== CSS Styling Start From Here ======================= */
+
+/* ========================= General CSS For All ============================ */
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+/* ==================== General CSS For All End Here ======================== */
+
+/* ======================= CSS For Choose Us Area =========================== */
+
+.choose-us-area {
+	padding: 25px 0px 0px 0px;
+}
+
+.choose-us-title {
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+.choose-us-title h2 {
+	position: relative;
+	z-index: 1;
+	padding-bottom: 15px;
+	margin-bottom: 12px;
+	font-size: 27px;
+	color: #242424;
+}
+
+.choose-us-title h2:before {
+	position: absolute;
+	width: 75px;
+	height: 2px;
+	background: #FE8D38;
+	content: "";
+	left: 50%;
+	bottom: 0;
+	margin-left: -37.5px;
+}
+
+.choose-us-title h2:after {
+	position: absolute;
+	width: 25px;
+	height: 2px;
+	background: #222222;
+	left: 50%;
+	content: "";
+	bottom: 0;
+	margin-left: -12.5px;
+}
+
+.choose-us-title p {
+	color: #898989;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+.single-choose-resone {
+	display: block;
+	text-align: center;
+	min-height: 230px;
+	margin-bottom: 20px;
+	transition: 2s;
+	padding: 5px 10px 0px 10px;
+}
+
+.single-choose-resone:hover {
+	border: 1px solid gray;
+	box-shadow: 0px 0px 10px blue;
+}
+
+a.single-choose-resone {
+	text-decoration: none;
+	color: #898989;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+
+.choose-img-icon {
+	display: table;
+	width: 100%;
+	height: 80px;
+	font-size: 55px;
+	color: blue;
+}
+
+.choose-img-tablecell {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.choose-img-tablecell img {
+	margin: 0px auto;
+}
+
+.choose-text h3 {
+	color: #2B2B2B;
+	font-weight: normal;
+	font-size: 19px;
+	padding-bottom: 5px;
+}
+
+.choose-text p {
+	color: #898989;
+	font-family: sans-serif;
+	font-weight: 100;
+	line-height: 25px;
+}
+
+/* ====================== Choose Us Area End Here =========================== */
+
+/* ======================= CSS Styling End Here ============================= */
